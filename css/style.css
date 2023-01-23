@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --fonte: 'Ubuntu', sans-serif;
+    --bg: #6C4AB6;
+    --cor: #EEF1FF;
+    --cor-btn: #ff0000;
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: var(--bg);
+    color: var(--cor);
+    font-size: 22px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.container__titulo {
+    font-size: 5em;
+}
+
+.container__texto {
+    font-size: 2em;
+    margin: 1em 0 1.5em;
+}
+
+.container__mensagem {
+    font-size: 1.5em;
+
+}
+
+
+.container__box {
+    border: 2px solid var(--cor);
+    display: inline-block;
+    font-size: 3em;
+    padding: 0.1em;
+    margin: 0.3em;
+}
+
+.container__resultado {
+    background-color: var(--cor-btn);
+    padding: 0.3em;
+    border-radius: 5px;
+}
+
+.container__btn {
+    background-color: var(--cor-btn);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px black;
+}
