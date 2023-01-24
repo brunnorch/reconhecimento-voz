@@ -8,7 +8,7 @@
 > Jogar novamente;
 
 ### Acesso ao jogo
-> 
+> https://brunnorch.github.io/reconhecimento-voz/
 
 
 ### Reconhecimento de voz através da API Web Speech
